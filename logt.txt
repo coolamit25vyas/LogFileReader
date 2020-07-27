@@ -1,0 +1,15 @@
+ID:12345
+Address: https://service.google.com
+Encoding:UTD-8
+Http-Method:POST
+Content-Type:text/xml:charset=UTF-8
+Headers:{Accept={text/xml}}
+Payload:<?xml version="1.0"?><S:Envelopexmlns:S="http://"><SOAP-ENV:Header><wsse:Security></wsse:Security></SOAP-ENV:Header><S:Body><ns3:getCreditLineByAccountGroupRequest><tansactionDetail><TransactionTimestamp>2020-07-24</TransactionTimestamp><applicationID>123</applicationID></tansactionDetail><ns3:requestContext><requestEntity><oldWorldAccountNumbers><oldWorldAccountNumber><ns2:accountBranch>5V</ns2:accountBranch><ns2:accountBase>A3769</ns2:accountBase></oldWorldAccountNumber><oldWorldAccountNumber><ns2:accountBranch>5F</ns2:accountBranch><ns2:accountBase>A4346</ns2:accountBase></oldWorldAccountNumber></oldWorldAccountNumbers></requestEntity></ns3:requestContext><ns3:financialContext><amountPrecision>2</amountPrecision><percentagePrecision>3</percentagePrecision></ns3:financialContext><ns3:infoTypes><ns3:infoType>DETAIL</ns3:infoType></ns3:infoTypes></ns3:getCreditLineByAccountGroupRequest></S:Body></S:Envelope>
+--------------------------------------------
+ID:12345
+Address: https://service.google.com
+Encoding:UTD-8
+Http-Method:POST
+Content-Type:text/xml:charset=UTF-8
+Headers:{Accept={text/xml}}
+Payload:<?xml version="1.0"?><S:Envelopexmlns:S="http://"><SOAP-ENV:Header><wsse:Security></wsse:Security></SOAP-ENV:Header><S:Body><ns3:getCreditLineByAccountGroupRequest><tansactionDetail><TransactionTimestamp>2020-07-24</TransactionTimestamp><applicationID>123</applicationID></tansactionDetail><ns3:requestContext><requestEntity><oldWorldAccountNumbers><oldWorldAccountNumber><ns2:accountBranch>5V</ns2:accountBranch><ns2:accountBase>A3769</ns2:accountBase></oldWorldAccountNumber><oldWorldAccountNumber><ns2:accountBranch>5F</ns2:accountBranch><ns2:accountBase>A4346</ns2:accountBase></oldWorldAccountNumber></oldWorldAccountNumbers></requestEntity></ns3:requestContext><ns3:financialContext><amountPrecision>2</amountPrecision><percentagePrecision>3</percentagePrecision></ns3:financialContext><ns3:infoTypes><ns3:infoType>DETAIL</ns3:infoType></ns3:infoTypes></ns3:getCreditLineByAccountGroupRequest></S:Body></S:Envelope>
